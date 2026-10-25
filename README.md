@@ -1,4 +1,4 @@
-1. Abstract
+1. Abstract:
 Executable files are critical components of an operating system, and unauthorized modification of these files can lead to
 program tampering, malware injection, and loss of system integrity. The project “Denying Writes to Executables” aims to
 develop a Linux-based mechanism that prevents unauthorized write operations on executable files while allowing legitimate
@@ -11,7 +11,7 @@ security mechanism that preserves the integrity of executable files and reduces 
 project provides practical understanding of Linux file-system security and demonstrates how Operating Systems concepts can
 be applied to protect critical system resources
 
-2. Problem Statement
+2. Problem Statement:
 Executable files contain programs that are essential for running applications and system services. If an unauthorized user or
 process is able to modify an executable, it may change the program's behavior, introduce malicious code, or compromise
 system security. In a normal Linux environment, file permissions provide access control, but improper permissions or
@@ -19,7 +19,7 @@ compromised processes may still allow unwanted modifications. Therefore, there i
 prevents unauthorized write operations on executable files while preserving legitimate execution. This project focuses on
 implementing such a protection mechanism using Linux file permissions, system calls, and access-control concepts.
 
-3. Objectives
+3. Objectives:
 1. To identify executable files in a Linux file system and determine their write permissions.
 2. To prevent unauthorized users or processes from modifying protected executable files.
 3. To demonstrate Linux file permissions, system calls, and access-control mechanisms for executable protection.
@@ -50,7 +50,7 @@ File Management Identify, open, access, and manage executable files.
 Process Management Understand the process attempting to access or modify
 an executable.
 
-6. Individual Contribution
+6. Individual Contribution:
 Roll Number Student Name Individual Responsibility
 2520090017 L.Tejasri Linux file-permission
 implementation and executable
@@ -60,7 +60,7 @@ identification
 Testing different users, permissions,
 and unauthorized write scenarios
 
-7. Tools / Platforms / Software Used
+7. Tools / Platforms / Software Used:
 (List the programming languages, operating system, libraries, tools, and software planned for the project.)
 Tool / Platform / Software Purpose
 Linux / Ubuntu Operating system for developing, compiling, and
@@ -69,14 +69,14 @@ C / C++ Main programming language used to implement the
 Producer–Consumer system.
 GCC Compiler Compiles the C source code into an executable program
 
-8. Expected Outcome
+8. Expected Outcome:
 The project is expected to provide a Linux-based mechanism that prevents unauthorized write operations on protected
 executable files. The system should allow authorized execution of the files while rejecting modification attempts from
 unauthorized users or processes. When a write operation is denied, the system should provide an appropriate error message
 and, where implemented, record the attempt in a log. The project will demonstrate practical application of Linux file
 permissions, access control, file management, and system calls. The final outcome will be a working prototype that improves
 executable-file integrity and provides hands-on understanding of Operating Systems and System Programming concepts.
-9. GitHub Repository
+9. GitHub Repository:
 GitHub Repository Link: https://github.com/dikshita100/KLH-CS-IT-2026-27-9-Denying-Writes-to-Executables
 Repository Created: ____________________
 ✓ Yes ☐ No
